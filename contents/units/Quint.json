@@ -1,0 +1,14 @@
+type: mech
+health: 125
+weapons: [
+  {
+    reload: 15 //idk if this is the right variable
+    bullet: standardCopper
+  }
+]
+speed: 7
+drag: 0.9
+description: "small but fast rover, used for scouting out areas or delivering goods at fast paces.
+mass: 9
+range: 150
+maxVelocity: 6.6
