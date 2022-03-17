@@ -1,8 +1,0 @@
-name: Mod-Blank
-displayName: MOD Blank
-author: Miku-San, YourName //put your name here or just delete mine ;U;//
-description: Generic Mod description
-version: 1.0
-minGameVersion: 162.2
-dependencies: [ ]
-hidden: false
