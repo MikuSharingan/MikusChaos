@@ -1,0 +1,33 @@
+size: 2
+update: true
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 60
+craftTime: 10
+consumes: {
+  power: 70
+  liquid: {
+    liquid: water
+	amount: 12
+	optional: false
+	booster: false
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 12
+    optional: false
+  	booster: false
+  }
+}
+outputItem: {
+  item: cryoice
+  amount: 2
+}
+requirements: [
+  lead/75
+  titanium/70
+  silicon/40
+]
+category: crafting
+research: oil-refinery
