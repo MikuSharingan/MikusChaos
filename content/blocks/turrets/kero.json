@@ -1,0 +1,44 @@
+type: ItemTurret
+name: kero
+description: Kero blaster
+health: 400
+hasLiquids:true
+liquidCapacity: 10
+maxAmmo:25
+reloadTime:7
+ammoPerShot:2
+size:3
+targetAir: true
+targetGround: true
+shots: 2
+alternate: false
+recoilAmount: 0.3
+shootSound: shoot
+ammoTypes: {
+	plastanium: {
+		type: BasicBulletType
+		damage: 15
+		splashDamageRadius: 3
+		splashDamage: 2
+		speed: 13
+		lifetime:30
+		height: 10
+		inaccuracy: 14
+		ammoMultiplier: 2
+	}
+}
+requirements: [
+	{
+	item: copper
+	amount: 45
+	}
+	{
+        item: lead
+        amount: 20
+        }
+	{
+        item: plastanium
+        amount: 200
+        }
+]
+catagory: turret
