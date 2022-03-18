@@ -6,18 +6,16 @@ hasLiquids: true
 liquidCapacity: 60
 craftTime: 10
 consumes: {
-  power: 70
+  power: 1
   liquid: {
     liquid: water
-	amount: 12
+	amount: 0.2
 	optional: false
 	booster: false
-  }
-  liquid: {
     liquid: cryofluid
-    amount: 12
-    optional: false
-  	booster: false
+	amount: 0.2
+	optional: false
+	booster: false
   }
 }
 outputItem: {
