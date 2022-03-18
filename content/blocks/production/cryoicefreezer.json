@@ -16,8 +16,7 @@ consumes: {
   }
 }
 outputItem: {
-  item: cryoice
-  amount: 0.2
+  item: cryoice/2
 }
 requirements: [
   lead/75
