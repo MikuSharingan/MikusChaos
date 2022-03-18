@@ -15,9 +15,7 @@ consumes: {
 	booster: false
   }
 }
-outputItem: {
-  item: cryoice/2
-}
+outputItem: cryoice/2
 requirements: [
   lead/75
   titanium/70
