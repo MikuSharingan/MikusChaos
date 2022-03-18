@@ -1,2 +1,7 @@
 name: Sharingan Block
 size: 2
+requirements: [
+  copper/75
+  titanium/70
+  thorium/40
+]
