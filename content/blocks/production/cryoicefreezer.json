@@ -8,10 +8,10 @@ craftTime: 0.2
 consumes: {
   power: 1
   liquid: {
-    cryofluid
-	amount: 0.2
-	optional: false
-	booster: false
+	liquid: cryofluid
+		amount: 0.2
+		optional: false
+		booster: false
   }
 }
 outputItem: cryoice/2
