@@ -1,4 +1,5 @@
 size: 3
+drawRotator: true
 hasPower: true
 hasItems: true
 hasLiquids: true
