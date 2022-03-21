@@ -1,0 +1,24 @@
+name: "shop"
+type: "GenericCrafter"
+description: "use credits to purchase items!"
+hasPower: false
+size: 2
+hasLiquids: flase
+craftTime: 20
+updateEffect: "smeltsmoke"
+itemCapacity: 3000
+consumes: {
+	items: {
+		items: [
+			credits/150
+		]
+	}
+}
+requirements: [
+	copper/175
+	lead/300
+]
+category: "crafting"
+research: "graphite-press"
+outputItem: cryoice/20
+configurable: true
