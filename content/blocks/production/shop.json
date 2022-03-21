@@ -10,7 +10,7 @@ itemCapacity: 3000
 consumes: {
 	items: {
 		items: [
-			credits/150
+			credits-teams/150
 		]
 	}
 }
