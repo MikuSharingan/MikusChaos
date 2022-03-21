@@ -1,37 +1,23 @@
-size: 3
-type: GenaricCrafter
-drawer: drawSmelter
+name: "SharinganBlock"
+type: "GenericCrafter"
+description: "using uchiha DNA to copy stuff"
 hasPower: true
-hasItems: true
+size: 3
 hasLiquids: true
 craftTime: 300
-craftEffect: formsmoke
+updateEffect: "smeltsmoke"
+itemCapacity: 20
 consumes: {
-  power: 3.5
-  items: {
-    items: [
-      lead/7
-      silicon/8
-      titanium/5
-      plastanium/6
-      surge-alloy/5
-      phase-fabric/4
-    ]
-  }
-  liquid: {
-    liquid: cryofluid
-    amount: 0.1
-  }
+	items: {
+		items: [
+			phase-fabric/10
+		]
+	}
 }
-itemCapacity: 200
-liquidCapacity: 60
-outputItem: metaglass/56
 requirements: [
-  copper/150
-  lead/125
-  metaglass/45
-  silicon/125
-  surge-alloy/150
-  phase-fabric/75
+	copper/175
+	lead/300
 ]
-category: crafting
+category: "crafting"
+research: "graphite-press"
+outputItem: phase-fabric/11
