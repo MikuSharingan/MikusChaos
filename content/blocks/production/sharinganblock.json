@@ -5,9 +5,9 @@ description: "using uchiha DNA to copy stuff"
 hasPower: false
 size: 3
 hasLiquids: flase
-craftTime: 3000
+craftTime: 900
 updateEffect: "smeltsmoke"
-itemCapacity: 20
+itemCapacity: 50
 consumes: {
 	items: {
 		items: [
@@ -21,4 +21,4 @@ requirements: [
 ]
 category: "crafting"
 research: "graphite-press"
-outputItem: surge-alloy/200
+outputItem: surge-alloy/20
