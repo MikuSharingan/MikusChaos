@@ -1,6 +1,5 @@
 name: cyroice freezer
 size: 2
-update: true
 hasPower: true
 hasItems: true
 hasLiquids: true
@@ -9,7 +8,7 @@ craftTime: 0.2
 consumes: {
   power: 1
   liquid: {
-    liquid: water
+    liquid: Cryofluid
 	amount: 0.2
 	optional: false
 	booster: false
