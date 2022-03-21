@@ -1,10 +1,12 @@
 name: "shop"
 type: "GenericCrafter"
+configurable: true
+update: true
 description: "use credits to purchase items!"
 hasPower: false
 size: 2
 hasLiquids: flase
-craftTime: 20
+craftTime: 5
 updateEffect: "smeltsmoke"
 itemCapacity: 3000
 consumes: {
@@ -20,5 +22,4 @@ requirements: [
 ]
 category: "crafting"
 research: "graphite-press"
-outputItem: cryoice/20
-configurable: true
+outputItem: cryoice/2
