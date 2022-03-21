@@ -1,6 +1,6 @@
 size: 3
-type: Drill
-drawRotator: true
+type: GenaricCrafter
+drawer: drawSmelter
 hasPower: true
 hasItems: true
 hasLiquids: true
