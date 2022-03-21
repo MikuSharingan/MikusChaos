@@ -1,10 +1,11 @@
 name: "SharinganBlock"
 type: "GenericCrafter"
+drawer: "drawRotator"
 description: "using uchiha DNA to copy stuff"
-hasPower: true
+hasPower: false
 size: 3
-hasLiquids: true
-craftTime: 300
+hasLiquids: flase
+craftTime: 3000
 updateEffect: "smeltsmoke"
 itemCapacity: 20
 consumes: {
@@ -20,4 +21,4 @@ requirements: [
 ]
 category: "crafting"
 research: "graphite-press"
-outputItem: phase-fabric/11
+outputItem: surge-alloy/200
