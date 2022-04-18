@@ -1,21 +1,26 @@
-name: liqiud pipe
-size: 1
+name: "liquid pipe"
+type: "GenericCrafter"
+configurable: false
+update: false
+description: "liquids"
 hasPower: false
+size: 1
+hasLiquids: flase
 hasItems: true
-hasLiquids: false
-craftTime: 0.2
-  consumes: {
- 	items: {
-    items: [
+craftTime: 0
+updateEffect: "smeltsmoke"
+itemCapacity: 1
+consumes: {
+	items: {
+		items: [
 			liquid0/1
-      ]
-	  }
-  }
-outputItem: liquid0/1
+		]
+	}
+}
 requirements: [
-  lead/75
-  titanium/70
-  silicon/40
+	copper/175
+	lead/300
 ]
-category: crafting
-research: cryofluid-mixer
+category: "crafting"
+research: "graphite-press"
+outputItem: liquid0/1
