@@ -1,13 +1,13 @@
-name: "liquid pipe"
+name: "liquidpipe"
 type: "GenericCrafter"
 configurable: false
-update: false
+update: true
 description: "liquids"
 hasPower: false
 size: 1
 hasLiquids: flase
 hasItems: true
-craftTime: 0
+craftTime: 0.1
 updateEffect: "smeltsmoke"
 itemCapacity: 1
 consumes: {
