@@ -1,1 +1,18 @@
-
+name: liqiud pipe
+size: 1
+hasPower: false
+hasItems: true
+hasLiquids: false
+craftTime: 0.2
+consumes: {
+]
+  }
+}
+outputItem: liquid0/1
+requirements: [
+  lead/75
+  titanium/70
+  silicon/40
+]
+category: crafting
+research: cryofluid-mixer
