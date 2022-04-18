@@ -7,13 +7,13 @@ hasPower: false
 size: 1
 hasLiquids: flase
 hasItems: true
-craftTime: 0.1
+craftTime: 0
 updateEffect: "smeltsmoke"
-itemCapacity: 1
+itemCapacity: 3
 consumes: {
 	items: {
 		items: [
-			liquid0/1
+			liquid0/3
 		]
 	}
 }
@@ -23,4 +23,4 @@ requirements: [
 ]
 category: "crafting"
 research: "graphite-press"
-outputItem: liquid0/1
+outputItem: liquid0/3
