@@ -4,10 +4,13 @@ hasPower: false
 hasItems: true
 hasLiquids: false
 craftTime: 0.2
-consumes: {
-]
+  consumes: {
+ 	items: {
+    items: [
+			liquid0/1
+      ]
+	  }
   }
-}
 outputItem: liquid0/1
 requirements: [
   lead/75
