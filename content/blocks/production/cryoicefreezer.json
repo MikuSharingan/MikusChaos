@@ -1,10 +1,11 @@
-name: cyroice freezer
+name: cyroicefreezer
 size: 2
 hasPower: true
 hasItems: true
 hasLiquids: true
 liquidCapacity: 60
 craftTime: 0.2
+updates/true
 consumes: {
   power: 1
   liquid: {
