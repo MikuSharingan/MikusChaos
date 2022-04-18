@@ -5,7 +5,8 @@ hasItems: true
 hasLiquids: true
 liquidCapacity: 60
 craftTime: 0.2
-update/true
+update: true
+power: 3
 consumes: {
 	liquid: {
 		liquid: cryofluid
