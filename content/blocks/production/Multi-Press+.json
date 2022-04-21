@@ -1,0 +1,26 @@
+name: "Multi-Press+"
+type: "GenericCrafter"
+description: "Compresses coal into graphite. Requires THICC water as coolant."
+hasPower: false
+size: 3
+hasLiquids: flase
+craftTime: 4
+updateEffect: "smeltsmoke"
+itemCapacity: 50
+consumes: {
+	items: {
+		items: [
+			coal/3
+      liquid1/6
+		]
+	}
+}
+requirements: [
+	graphite/50
+	lead/100
+  titanium/100
+  silicon/25
+]
+category: "crafting"
+research: "graphite-press"
+outputItem: graphite/2
